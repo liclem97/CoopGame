@@ -1,0 +1,3 @@
+﻿  Creating makefile for CoopGameEditor (ini files are newer than UBTMakefile)
+  Performing full C++ include scan (no include cache file)
+D:\Tools\VisualStudio2017\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): warning MSB5021: 빌드가 취소되었으므로 작업 실행 파일 "cmd" 및 자식 프로세스를 종료합니다.

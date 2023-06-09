@@ -1,0 +1,730 @@
+﻿Log file open, 03/14/23 17:43:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CoopGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(463285082) SRandInit(463285082).
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.402920
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Tools/EpicGames/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2023.03.14-08.43.09:220][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.14-08.43.09:220][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.03.14-08.43.09:228][  0]LogInit: Computer: DESKTOP-A4CSULD
+[2023.03.14-08.43.09:228][  0]LogInit: User: 82104
+[2023.03.14-08.43.09:228][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.03.14-08.43.09:228][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.03.14-08.43.09:228][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.03.14-08.43.09:228][  0]LogMemory: Platform Memory Stats for Windows
+[2023.03.14-08.43.09:228][  0]LogMemory: Process Physical Memory: 285.64 MB used, 285.64 MB peak
+[2023.03.14-08.43.09:228][  0]LogMemory: Process Virtual Memory: 281.59 MB used, 281.59 MB peak
+[2023.03.14-08.43.09:228][  0]LogMemory: Physical Memory: 9255.20 MB used,  23460.92 MB free, 32716.11 MB total
+[2023.03.14-08.43.09:228][  0]LogMemory: Virtual Memory: 4805.13 MB used,  23460.92 MB free, 134217728.00 MB total
+[2023.03.14-08.43.09:412][  0]LogInit: Using OS detected language (ko-KR).
+[2023.03.14-08.43.09:412][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.03.14-08.43.09:415][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2023.03.14-08.43.09:792][  0]LogD3D11RHI: D3D11 adapters:
+[2023.03.14-08.43.09:940][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2023.03.14-08.43.09:940][  0]LogD3D11RHI:       5979/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.03.14-08.43.09:942][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.03.14-08.43.09:942][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.03.14-08.43.09:942][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.03.14-08.43.09:950][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.03.14-08.43.09:950][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
+[2023.03.14-08.43.09:950][  0]LogWindows: EnumDisplayDevices:
+[2023.03.14-08.43.09:951][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2023.03.14-08.43.09:951][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:1)
+[2023.03.14-08.43.09:951][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2023.03.14-08.43.09:951][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2023.03.14-08.43.09:951][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.03.14-08.43.09:951][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2023.03.14-08.43.09:951][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.03.14-08.43.09:951][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.03.14-08.43.09:951][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.03.14-08.43.10:048][  0]LogD3D11RHI: Async texture creation enabled
+[2023.03.14-08.43.10:070][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.03.14-08.43.10:072][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2023.03.14-08.43.10:072][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../../UE_Project/CoopGame/Intermediate/Shaders/WorkingDirectory/5656/).
+[2023.03.14-08.43.10:072][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Wonjeong/AppData/Local/Temp/UnrealShaderWorkingDir/AF3AC8254722E720F30268A2012CBEFF/'.
+[2023.03.14-08.43.10:072][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.03.14-08.43.11:017][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.03.14-08.43.11:066][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.03.14-08.43.11:115][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.03.14-08.43.11:165][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.03.14-08.43.11:217][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.03.14-08.43.11:266][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.03.14-08.43.11:315][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.03.14-08.43.11:366][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.03.14-08.43.11:408][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.03.14-08.43.11:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.03.14-08.43.11:505][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.03.14-08.43.11:553][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.03.14-08.43.11:601][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.03.14-08.43.11:649][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.03.14-08.43.11:697][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.03.14-08.43.11:793][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.03.14-08.43.11:793][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.03.14-08.43.11:830][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.03.14-08.43.11:921][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.03.14-08.43.11:952][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.03.14-08.43.11:999][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.03.14-08.43.12:048][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.03.14-08.43.12:095][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.03.14-08.43.12:144][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.03.14-08.43.12:144][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.03.14-08.43.12:619][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.03.14-08.43.12:694][  0]LogDerivedDataCache: Loaded boot cache 0.08s 95MB C:/Users/Wonjeong/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.03.14-08.43.12:694][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Wonjeong/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.03.14-08.43.12:694][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UE_Project/CoopGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.03.14-08.43.12:695][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.03.14-08.43.12:695][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UE_Project/CoopGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.14-08.43.12:695][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.03.14-08.43.12:710][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.03.14-08.43.12:723][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wonjeong/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.03.14-08.43.12:733][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.03.14-08.43.12:733][  0]LogSlate: Using Freetype 2.6.0
+[2023.03.14-08.43.12:734][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.03.14-08.43.12:734][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.03.14-08.43.12:984][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2023.03.14-08.43.13:097][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.14-08.43.13:413][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.03.14-08.43.13:450][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.03.14-08.43.13:450][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.03.14-08.43.13:450][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.03.14-08.43.13:450][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.03.14-08.43.13:450][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.03.14-08.43.13:471][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.03.14-08.43.13:799][  0]LogNetVersion: CoopGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 471078940)
+[2023.03.14-08.43.13:971][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.032539 seconds
+[2023.03.14-08.43.13:977][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2023.03.14-08.43.13:977][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2023.03.14-08.43.13:977][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.03.14-08.43.14:037][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.03.14-08.43.16:306][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.03.14-08.43.16:344][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.03.14-08.43.17:174][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.03.14-08.43.17:526][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2023.03.14-08.43.17:526][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2023.03.14-08.43.17:570][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2023.03.14-08.43.17:614][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2023.03.14-08.43.18:149][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.03.14-08.43.18:379][  0]LogOcInput: OculusInput pre-init called
+[2023.03.14-08.43.18:620][  0]LogEngine: Initializing Engine...
+[2023.03.14-08.43.18:622][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.03.14-08.43.18:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.03.14-08.43.18:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.03.14-08.43.18:898][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.03.14-08.43.18:915][  0]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-08.43.18:929][  0]LogInit: FAudioDevice initialized.
+[2023.03.14-08.43.19:023][  0]LogDerivedDataCache: Saved boot cache 0.09s 95MB C:/Users/Wonjeong/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.03.14-08.43.19:032][  0]LogInit: Texture streaming: Enabled
+[2023.03.14-08.43.19:146][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.03.14-08.43.19:354][  0]LogInit: Transaction tracking system initialized
+[2023.03.14-08.43.19:644][  0]BlueprintLog: New page: 에디터 로드
+[2023.03.14-08.43.20:509][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2023.03.14-08.43.21:144][  0]LogConsoleResponse: Display: 
+[2023.03.14-08.43.21:280][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.03.14-08.43.21:280][  0]LogCook: Display: Mobile HDR setting 1
+[2023.03.14-08.43.21:280][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.03.14-08.43.21:647][  0]LogFileCache: Scanning file cache for directory 'D:/UE_Project/CoopGame/Content/' took 0.01s
+[2023.03.14-08.43.22:239][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2023.03.14-08.43.22:239][  0]Cmd: MAP LOAD FILE="../../../../../../UE_Project/CoopGame/Content/Maps/P_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.14-08.43.22:240][  0]LightingResults: New page: 라이팅 빌드
+[2023.03.14-08.43.22:277][  0]MapCheck: New page: 맵 체크
+[2023.03.14-08.43.22:277][  0]LightingResults: New page: 라이팅 빌드
+[2023.03.14-08.43.22:584][  0]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-08.43.22:591][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.14-08.43.22:615][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.14-08.43.22:664][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 48.565ms.
+[2023.03.14-08.43.22:664][  0]LogFileHelpers: Loading map 'P_TestMap' took 0.425
+[2023.03.14-08.43.22:801][  0]LogCollectionManager: Loaded 0 collections in 0.000940 seconds
+[2023.03.14-08.43.22:879][  0]LogFileCache: Scanning file cache for directory 'D:/UE_Project/CoopGame/Saved/Collections/' took 0.01s
+[2023.03.14-08.43.22:879][  0]LogFileCache: Scanning file cache for directory 'D:/UE_Project/CoopGame/Content/Developers/82104/Collections/' took 0.01s
+[2023.03.14-08.43.22:879][  0]LogFileCache: Scanning file cache for directory 'D:/UE_Project/CoopGame/Content/Collections/' took 0.01s
+[2023.03.14-08.43.22:879][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2023.03.14-08.43.22:892][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2393 classes and 505 folders.
+[2023.03.14-08.43.22:955][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0038 seconds. Added 0 classes and 0 folders.
+[2023.03.14-08.43.22:997][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0037 seconds. Added 0 classes and 0 folders.
+[2023.03.14-08.43.23:042][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0038 seconds. Added 1 classes and 2 folders.
+[2023.03.14-08.43.23:125][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.03.14-08.43.23:128][  0]LogSlate: Took 0.002130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2023.03.14-08.43.23:129][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.03.14-08.43.23:133][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.03.14-08.43.23:214][  0]LogRenderer: Reallocating scene render targets to support 1844x668 Format 10 NumSamples 1 (Frame:1).
+[2023.03.14-08.43.23:384][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0038 seconds. Added 1 classes and 2 folders.
+[2023.03.14-08.43.23:384][  0]LogLoad: (Engine Initialization) Total time: 16.38 seconds
+[2023.03.14-08.43.23:384][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.03.14-08.43.23:384][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.03.14-08.43.23:757][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.03.14-08.43.23:809][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.03.14-08.43.24:059][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UE_Project/CoopGame/Content/' took 0.32s
+[2023.03.14-08.43.24:065][  1]LogAssetRegistry: Asset discovery search completed in 11.1026 seconds
+[2023.03.14-08.43.24:066][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2023.03.14-08.43.24:066][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2023.03.14-08.43.24:726][  3]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.03.14-08.52.06:983][ 84]AssetReimport: New page: 처리중인 소스 콘텐츠 변경사항 오전 2:52:06
+[2023.03.14-08.52.07:005][ 85]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_01g.wav)
+[2023.03.14-08.52.07:066][ 85]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerSounds/ball_roll_01g.ball_roll_01g.
+[2023.03.14-08.52.07:140][ 86]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_02_loop.wav)
+[2023.03.14-08.52.07:173][ 86]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerSounds/ball_roll_02_loop.ball_roll_02_loop.
+[2023.03.14-08.52.07:192][ 87]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop.wav)
+[2023.03.14-08.52.07:269][ 87]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerSounds/ball_roll_03_loop.ball_roll_03_loop.
+[2023.03.14-08.52.07:286][ 88]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_04_loop.wav)
+[2023.03.14-08.52.07:339][ 88]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerSounds/ball_roll_04_loop.ball_roll_04_loop.
+[2023.03.14-08.52.07:352][ 89]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_explodewarning.wav)
+[2023.03.14-08.52.07:366][ 89]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerSounds/DroneTracker_explodewarning.DroneTracker_explodewarning.
+[2023.03.14-08.52.07:378][ 90]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_idle.wav)
+[2023.03.14-08.52.07:388][ 90]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerSounds/DroneTracker_idle.DroneTracker_idle.
+[2023.03.14-08.52.07:394][ 90]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_spotted.wav)
+[2023.03.14-08.52.07:406][ 90]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerSounds/DroneTracker_spotted.DroneTracker_spotted.
+[2023.03.14-08.52.07:419][ 91]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/Explosion01.wav)
+[2023.03.14-08.52.07:444][ 91]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerSounds/Explosion01.Explosion01.
+[2023.03.14-08.52.07:463][ 92]LogSlate: Took 0.004157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.03.14-08.52.07:480][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/ball_roll_01g" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_01g.uasset" SILENT=true
+[2023.03.14-08.52.07:484][ 92]LogSavePackage: Save=3.56ms
+[2023.03.14-08.52.07:485][ 92]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/ball_roll_01gF623C29842AAAAD94D897EB86791B2D4.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_01g.uasset'
+[2023.03.14-08.52.07:486][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_01g.uasset
+[2023.03.14-08.52.07:496][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/ball_roll_02_loop" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_02_loop.uasset" SILENT=true
+[2023.03.14-08.52.07:501][ 92]LogSavePackage: Save=3.54ms
+[2023.03.14-08.52.07:501][ 92]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/ball_roll_02_loopB3502C4E4CC126BEF6D94EB7E86EEE0B.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_02_loop.uasset'
+[2023.03.14-08.52.07:502][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_02_loop.uasset
+[2023.03.14-08.52.07:514][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/ball_roll_03_loop" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop.uasset" SILENT=true
+[2023.03.14-08.52.07:519][ 92]LogSavePackage: Save=3.67ms
+[2023.03.14-08.52.07:519][ 92]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/ball_roll_03_loop3C7375E441D086112C69B89CFFD36EE0.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop.uasset'
+[2023.03.14-08.52.07:520][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop.uasset
+[2023.03.14-08.52.07:531][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/ball_roll_04_loop" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_04_loop.uasset" SILENT=true
+[2023.03.14-08.52.07:559][ 92]LogSavePackage: Save=3.57ms
+[2023.03.14-08.52.07:559][ 92]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/ball_roll_04_loop0E594CCE45190096860658BC6B974677.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_04_loop.uasset'
+[2023.03.14-08.52.07:560][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_04_loop.uasset
+[2023.03.14-08.52.07:575][ 92]LogSavePackage: Save=3.41ms
+[2023.03.14-08.52.07:575][ 92]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/DroneTracker_explodewarning6FED53FF4254B8AE14346981DA1ADCFD.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_explodewarning.uasset'
+[2023.03.14-08.52.07:576][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_explodewarning.uasset
+[2023.03.14-08.52.07:585][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/DroneTracker_idle" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_idle.uasset" SILENT=true
+[2023.03.14-08.52.07:589][ 92]LogSavePackage: Save=3.27ms
+[2023.03.14-08.52.07:589][ 92]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/DroneTracker_idle9FD6B51645F7C607D42574BD8254369F.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_idle.uasset'
+[2023.03.14-08.52.07:590][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_idle.uasset
+[2023.03.14-08.52.07:600][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/DroneTracker_spotted" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_spotted.uasset" SILENT=true
+[2023.03.14-08.52.07:605][ 92]LogSavePackage: Save=3.22ms
+[2023.03.14-08.52.07:605][ 92]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/DroneTracker_spotted2E6ABF404F6E5BF091C9EC9655936876.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_spotted.uasset'
+[2023.03.14-08.52.07:606][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_spotted.uasset
+[2023.03.14-08.52.07:616][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/Explosion01" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/Explosion01.uasset" SILENT=true
+[2023.03.14-08.52.07:620][ 92]LogSavePackage: Save=3.31ms
+[2023.03.14-08.52.07:620][ 92]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/Explosion01B703982F4351E2FF3FDB9CB6F02B5EC0.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/Explosion01.uasset'
+[2023.03.14-08.52.07:622][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/Explosion01.uasset
+[2023.03.14-08.52.10:635][451]AssetReimport: /Game/TrackerBot/TrackerSounds/ball_roll_01g 새 애셋 임포트중.
+[2023.03.14-08.52.10:635][451]AssetReimport: /Game/TrackerBot/TrackerSounds/ball_roll_02_loop 새 애셋 임포트중.
+[2023.03.14-08.52.10:635][451]AssetReimport: /Game/TrackerBot/TrackerSounds/ball_roll_03_loop 새 애셋 임포트중.
+[2023.03.14-08.52.10:635][451]AssetReimport: /Game/TrackerBot/TrackerSounds/ball_roll_04_loop 새 애셋 임포트중.
+[2023.03.14-08.52.10:635][451]AssetReimport: /Game/TrackerBot/TrackerSounds/DroneTracker_explodewarning 새 애셋 임포트중.
+[2023.03.14-08.52.10:635][451]AssetReimport: /Game/TrackerBot/TrackerSounds/DroneTracker_idle 새 애셋 임포트중.
+[2023.03.14-08.52.10:635][451]AssetReimport: /Game/TrackerBot/TrackerSounds/DroneTracker_spotted 새 애셋 임포트중.
+[2023.03.14-08.52.10:635][451]AssetReimport: /Game/TrackerBot/TrackerSounds/Explosion01 새 애셋 임포트중.
+[2023.03.14-08.57.03:979][430]LogHotReload: New module detected: UE4Editor-CoopGame-5954.dll
+[2023.03.14-08.57.04:995][434]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.14-08.57.07:372][434]LogClass: Could not find existing class STrackerBot in package /Script/CoopGame for HotReload, assuming new class
+[2023.03.14-08.57.07:372][434]LogClass: Function HandleTakeDamage is new.
+[2023.03.14-08.57.07:372][434]LogClass: HitScanTrace HotReload.
+[2023.03.14-08.57.07:380][434]LogHotReload: Re-instancing STrackerBot after hot-reload.
+[2023.03.14-08.57.07:550][434]LogContentBrowser: Native class hierarchy updated for 'CoopGame' in 0.0039 seconds. Added 7 classes and 5 folders.
+[2023.03.14-08.57.07:552][434]Display: HotReload successful (6 functions remapped  1 scriptstructs remapped)
+[2023.03.14-08.57.07:656][434]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2395 classes and 509 folders.
+[2023.03.14-08.57.07:662][434]Display: HotReload took  2.7s.
+[2023.03.14-08.57.17:492][859]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0042 seconds. Added 113 classes and 0 folders.
+[2023.03.14-08.57.18:139][859]LogSlate: Took 0.003867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.03.14-08.57.20:702][ 76]LogSlate: Took 0.004092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.03.14-08.57.59:732][397]BlueprintLog: New page: BP_TrackerBot 컴파일
+[2023.03.14-08.58.00:189][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/BP_TrackerBot" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset" SILENT=true
+[2023.03.14-08.58.00:208][397]LogSavePackage: Save=16.48ms
+[2023.03.14-08.58.00:208][397]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/BP_TrackerBot11F083624E2BAA4698F3B091993FCFEA.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2023.03.14-08.58.00:209][397]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2023.03.14-08.58.14:469][ 46]BlueprintLog: New page: BP_TrackerBot 컴파일
+[2023.03.14-08.58.14:830][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/BP_TrackerBot" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset" SILENT=true
+[2023.03.14-08.58.14:848][ 46]LogSavePackage: Save=16.04ms
+[2023.03.14-08.58.14:849][ 46]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/BP_TrackerBot074F19AA47A95A75E7BF28B0AE9305EE.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2023.03.14-08.58.14:850][ 46]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2023.03.14-08.58.15:650][137]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-08.58.15:700][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-08.58.15:700][137]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 2:58:15)
+[2023.03.14-08.58.15:701][137]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-08.58.15:708][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007699s)
+[2023.03.14-08.58.15:709][137]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-08.58.15:709][137]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2023.03.14-08.58.15:709][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.008719s)
+[2023.03.14-08.58.15:750][137]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-08.58.15:758][137]LogInit: FAudioDevice initialized.
+[2023.03.14-08.58.15:822][137]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-08.58.15:824][137]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-17.58.15
+[2023.03.14-08.58.15:825][137]LogWorld: Bringing up level for play took: 0.001840
+[2023.03.14-08.58.15:867][137]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0039 seconds. Added 11 classes and 0 folders.
+[2023.03.14-08.58.15:871][137]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: 1.131
+[2023.03.14-08.58.15:909][137]LogRenderer: Reallocating scene render targets to support 1844x756 Format 10 NumSamples 1 (Frame:1).
+[2023.03.14-08.58.19:171][522]LogTemp: Health Changed : 80.0
+[2023.03.14-08.58.19:171][522]LogTemp: Health 80.0 of BP_TrackerBot_5
+[2023.03.14-08.58.19:663][581]LogTemp: Health Changed : 60.0
+[2023.03.14-08.58.19:663][581]LogTemp: Health 60.0 of BP_TrackerBot_5
+[2023.03.14-08.58.20:163][641]LogTemp: Health Changed : 40.0
+[2023.03.14-08.58.20:163][641]LogTemp: Health 40.0 of BP_TrackerBot_5
+[2023.03.14-08.58.20:663][701]LogTemp: Health Changed : 20.0
+[2023.03.14-08.58.20:663][701]LogTemp: Health 20.0 of BP_TrackerBot_5
+[2023.03.14-08.58.21:162][761]LogTemp: Health Changed : 0.0
+[2023.03.14-08.58.21:162][761]LogTemp: Health 0.0 of BP_TrackerBot_5
+[2023.03.14-08.59.04:874][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/P_TestMap" FILE="../../../../../../UE_Project/CoopGame/Saved/Autosaves/Game/Maps/P_TestMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.03.14-08.59.04:913][128]LogSavePackage: Save=35.77ms
+[2023.03.14-08.59.04:913][128]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/P_TestMap_Auto12A9880604B95DFE1B82112B89676B1DB.tmp' to '../../../../../../UE_Project/CoopGame/Saved/Autosaves/Game/Maps/P_TestMap_Auto1.umap'
+[2023.03.14-08.59.04:914][128]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Saved/Autosaves/Game/Maps/P_TestMap_Auto1.umap
+[2023.03.14-08.59.04:915][128]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/P_TestMap' took 0.069
+[2023.03.14-08.59.04:915][128]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.069
+[2023.03.14-08.59.04:917][128]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TrackerBot/TrackerSounds/DroneTracker_explodewarning_Cue] ([1] browsable assets)...
+[2023.03.14-08.59.04:917][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerSounds/DroneTracker_explodewarning_Cue]
+[2023.03.14-08.59.04:920][128]LogSavePackage: Save=2.62ms
+[2023.03.14-08.59.04:920][128]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/DroneTracker_explodewarning_Cue_Auto14BC931AB4ADE91E4DCBDB4A3A963BC19.tmp' to '../../../../../../UE_Project/CoopGame/Saved/Autosaves/Game/TrackerBot/TrackerSounds/DroneTracker_explodewarning_Cue_Auto1.uasset'
+[2023.03.14-08.59.04:921][128]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Saved/Autosaves/Game/TrackerBot/TrackerSounds/DroneTracker_explodewarning_Cue_Auto1.uasset
+[2023.03.14-08.59.04:921][128]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TrackerBot/TrackerSounds/Explosion01_Cue] ([1] browsable assets)...
+[2023.03.14-08.59.04:921][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerSounds/Explosion01_Cue]
+[2023.03.14-08.59.04:925][128]LogSavePackage: Save=2.62ms
+[2023.03.14-08.59.04:925][128]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/Explosion01_Cue_Auto14E24743C4A169B794E43418F76C7AEB9.tmp' to '../../../../../../UE_Project/CoopGame/Saved/Autosaves/Game/TrackerBot/TrackerSounds/Explosion01_Cue_Auto1.uasset'
+[2023.03.14-08.59.04:926][128]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Saved/Autosaves/Game/TrackerBot/TrackerSounds/Explosion01_Cue_Auto1.uasset
+[2023.03.14-08.59.04:926][128]LogFileHelpers: Auto-saving content packages took 0.010
+[2023.03.14-08.59.52:162][270]LogHotReload: New module detected: UE4Editor-CoopGame-3298.dll
+[2023.03.14-08.59.52:848][273]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.14-08.59.52:957][273]LogClass: Could not find existing class STrackerBot in package /Script/CoopGame for HotReload, assuming new class
+[2023.03.14-08.59.52:957][273]LogClass: Function HandleTakeDamage is new.
+[2023.03.14-08.59.52:957][273]LogClass: HitScanTrace HotReload.
+[2023.03.14-08.59.52:966][273]LogHotReload: Re-instancing STrackerBot after hot-reload.
+[2023.03.14-08.59.53:364][273]LogContentBrowser: Native class hierarchy updated for 'CoopGame' in 0.0039 seconds. Added 7 classes and 5 folders.
+[2023.03.14-08.59.53:367][273]Display: HotReload successful (6 functions remapped  1 scriptstructs remapped)
+[2023.03.14-08.59.53:631][273]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2395 classes and 509 folders.
+[2023.03.14-08.59.53:637][273]Display: HotReload took  0.8s.
+[2023.03.14-09.00.39:350][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/TrackerBotAttenuation" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/TrackerBotAttenuation.uasset" SILENT=true
+[2023.03.14-09.00.39:352][995]LogSavePackage: Save=1.07ms
+[2023.03.14-09.00.39:352][995]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/TrackerBotAttenuation9EC9EA5B4F9B9919198576B8965F940F.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/TrackerBotAttenuation.uasset'
+[2023.03.14-09.00.39:354][995]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/TrackerBotAttenuation.uasset
+[2023.03.14-09.00.58:693][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/Explosion01_Cue" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/Explosion01_Cue.uasset" SILENT=true
+[2023.03.14-09.00.58:697][276]LogSavePackage: Save=2.55ms
+[2023.03.14-09.00.58:697][276]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/Explosion01_CueA8EEF00F4101D4D745C802B3B7762AEB.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/Explosion01_Cue.uasset'
+[2023.03.14-09.00.58:698][276]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/Explosion01_Cue.uasset
+[2023.03.14-09.01.08:080][378]LogSavePackage: Save=3.00ms
+[2023.03.14-09.01.08:080][378]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/DroneTracker_explodewarning_CueE0631C5943E6B2674940A083D6B8356A.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_explodewarning_Cue.uasset'
+[2023.03.14-09.01.08:081][378]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_explodewarning_Cue.uasset
+[2023.03.14-09.01.39:875][326]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.01.39:888][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.01.39:889][326]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:01:39)
+[2023.03.14-09.01.39:889][326]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-09.01.39:892][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002892s)
+[2023.03.14-09.01.39:892][326]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.01.39:893][326]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2023.03.14-09.01.39:893][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.003915s)
+[2023.03.14-09.01.39:951][326]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.01.39:959][326]LogInit: FAudioDevice initialized.
+[2023.03.14-09.01.39:989][326]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.01.39:991][326]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.01.39
+[2023.03.14-09.01.39:992][326]LogWorld: Bringing up level for play took: 0.001747
+[2023.03.14-09.01.39:994][326]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: -0.747
+[2023.03.14-09.01.42:689][647]LogTemp: Health Changed : 80.0
+[2023.03.14-09.01.42:689][647]LogTemp: Health 80.0 of BP_TrackerBot_5
+[2023.03.14-09.01.42:930][676]LogTemp: Health Changed : 60.0
+[2023.03.14-09.01.42:930][676]LogTemp: Health 60.0 of BP_TrackerBot_5
+[2023.03.14-09.01.43:181][706]LogTemp: Health Changed : 40.0
+[2023.03.14-09.01.43:181][706]LogTemp: Health 40.0 of BP_TrackerBot_5
+[2023.03.14-09.01.43:431][736]LogTemp: Health Changed : 20.0
+[2023.03.14-09.01.43:431][736]LogTemp: Health 20.0 of BP_TrackerBot_5
+[2023.03.14-09.01.43:680][766]LogTemp: Health Changed : 0.0
+[2023.03.14-09.01.43:680][766]LogTemp: Health 0.0 of BP_TrackerBot_5
+[2023.03.14-09.02.15:476][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/P_TestMap" FILE="../../../../../../UE_Project/CoopGame/Content/Maps/P_TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.03.14-09.02.15:545][728]LogSavePackage: Save=35.97ms
+[2023.03.14-09.02.15:545][728]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/P_TestMapD87AB76C4B59BBFC8AA31FA7437BE4B9.tmp' to '../../../../../../UE_Project/CoopGame/Content/Maps/P_TestMap.umap'
+[2023.03.14-09.02.15:547][728]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/Maps/P_TestMap.umap
+[2023.03.14-09.02.15:563][728]LogFileHelpers: Saving map 'P_TestMap' took 2.165
+[2023.03.14-09.02.15:570][728]LogSavePackage: Save=2.68ms
+[2023.03.14-09.02.15:570][728]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/DroneTracker_explodewarning_Cue1099C9DF44F6DF72F975CDBFD45756B2.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_explodewarning_Cue.uasset'
+[2023.03.14-09.02.15:572][728]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/DroneTracker_explodewarning_Cue.uasset
+[2023.03.14-09.02.22:729][204]LogSlate: Took 0.004126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.03.14-09.03.17:248][294]BlueprintLog: New page: BP_TrackerBot 컴파일
+[2023.03.14-09.03.17:775][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/BP_TrackerBot" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset" SILENT=true
+[2023.03.14-09.03.17:817][294]LogSavePackage: Save=39.54ms
+[2023.03.14-09.03.17:817][294]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/BP_TrackerBot69F5D6E742AA71D957CB1394D18DD2B0.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2023.03.14-09.03.17:818][294]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2023.03.14-09.03.18:960][424]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.03.18:975][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.03.18:975][424]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:03:18)
+[2023.03.14-09.03.18:975][424]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-09.03.18:978][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002774s)
+[2023.03.14-09.03.18:979][424]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.03.18:979][424]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2023.03.14-09.03.18:979][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.003812s)
+[2023.03.14-09.03.19:021][424]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.03.19:029][424]LogInit: FAudioDevice initialized.
+[2023.03.14-09.03.19:082][424]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.03.19:084][424]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.03.19
+[2023.03.14-09.03.19:084][424]LogWorld: Bringing up level for play took: 0.001666
+[2023.03.14-09.03.19:088][424]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: 0.346
+[2023.03.14-09.03.24:326][ 40]LogTemp: Health Changed : 80.0
+[2023.03.14-09.03.24:327][ 40]LogTemp: Health 80.0 of BP_TrackerBot_5
+[2023.03.14-09.03.24:569][ 69]LogTemp: Health Changed : 60.0
+[2023.03.14-09.03.24:569][ 69]LogTemp: Health 60.0 of BP_TrackerBot_5
+[2023.03.14-09.03.24:819][ 99]LogTemp: Health Changed : 40.0
+[2023.03.14-09.03.24:819][ 99]LogTemp: Health 40.0 of BP_TrackerBot_5
+[2023.03.14-09.03.25:068][129]LogTemp: Health Changed : 20.0
+[2023.03.14-09.03.25:068][129]LogTemp: Health 20.0 of BP_TrackerBot_5
+[2023.03.14-09.03.25:319][159]LogTemp: Health Changed : 0.0
+[2023.03.14-09.03.25:319][159]LogTemp: Health 0.0 of BP_TrackerBot_5
+[2023.03.14-09.04.00:289][957]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.04.00:305][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.04.00:305][957]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:04:00)
+[2023.03.14-09.04.00:305][957]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-09.04.00:308][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002693s)
+[2023.03.14-09.04.00:308][957]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.04.00:308][957]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2023.03.14-09.04.00:309][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.003658s)
+[2023.03.14-09.04.00:351][957]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.04.00:360][957]LogInit: FAudioDevice initialized.
+[2023.03.14-09.04.00:391][957]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.04.00:393][957]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.04.00
+[2023.03.14-09.04.00:394][957]LogWorld: Bringing up level for play took: 0.001726
+[2023.03.14-09.04.00:396][957]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: -0.345
+[2023.03.14-09.04.15:372][718]BlueprintLog: New page: BP_TrackerBot 컴파일
+[2023.03.14-09.04.15:805][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/BP_TrackerBot" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset" SILENT=true
+[2023.03.14-09.04.15:824][718]LogSavePackage: Save=16.96ms
+[2023.03.14-09.04.15:824][718]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/BP_TrackerBot4BFF28D542A87154491A89AF0610336C.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2023.03.14-09.04.15:826][718]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2023.03.14-09.04.16:227][759]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.04.16:241][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.04.16:241][759]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:04:16)
+[2023.03.14-09.04.16:241][759]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-09.04.16:244][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002649s)
+[2023.03.14-09.04.16:244][759]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.04.16:245][759]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2023.03.14-09.04.16:245][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.003659s)
+[2023.03.14-09.04.16:287][759]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.04.16:295][759]LogInit: FAudioDevice initialized.
+[2023.03.14-09.04.16:345][759]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.04.16:347][759]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.04.16
+[2023.03.14-09.04.16:347][759]LogWorld: Bringing up level for play took: 0.001662
+[2023.03.14-09.04.16:351][759]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: -0.39
+[2023.03.14-09.04.24:102][677]LogTemp: Health Changed : 80.0
+[2023.03.14-09.04.24:103][677]LogTemp: Health 80.0 of BP_TrackerBot_5
+[2023.03.14-09.04.24:345][706]LogTemp: Health Changed : 60.0
+[2023.03.14-09.04.24:345][706]LogTemp: Health 60.0 of BP_TrackerBot_5
+[2023.03.14-09.04.24:594][736]LogTemp: Health Changed : 40.0
+[2023.03.14-09.04.24:595][736]LogTemp: Health 40.0 of BP_TrackerBot_5
+[2023.03.14-09.04.24:844][766]LogTemp: Health Changed : 20.0
+[2023.03.14-09.04.24:844][766]LogTemp: Health 20.0 of BP_TrackerBot_5
+[2023.03.14-09.04.25:094][796]LogTemp: Health Changed : 0.0
+[2023.03.14-09.04.25:094][796]LogTemp: Health 0.0 of BP_TrackerBot_5
+[2023.03.14-09.04.50:648][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue.uasset" SILENT=true
+[2023.03.14-09.04.50:652][841]LogSavePackage: Save=2.94ms
+[2023.03.14-09.04.50:652][841]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/ball_roll_03_loop_Cue857039D44E26E4952854C593604D32C5.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue.uasset'
+[2023.03.14-09.04.50:653][841]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue.uasset
+[2023.03.14-09.04.52:576][ 63]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.04.52:590][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.04.52:591][ 63]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:04:52)
+[2023.03.14-09.04.52:591][ 63]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-09.04.52:593][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002516s)
+[2023.03.14-09.04.52:594][ 63]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.04.52:594][ 63]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2023.03.14-09.04.52:594][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.003536s)
+[2023.03.14-09.04.52:635][ 63]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.04.52:644][ 63]LogInit: FAudioDevice initialized.
+[2023.03.14-09.04.52:678][ 63]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.04.52:680][ 63]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.04.52
+[2023.03.14-09.04.52:680][ 63]LogWorld: Bringing up level for play took: 0.001595
+[2023.03.14-09.04.52:683][ 63]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: -0.059
+[2023.03.14-09.05.03:104][311]LogTemp: Health Changed : 80.0
+[2023.03.14-09.05.03:104][311]LogTemp: Health 80.0 of BP_TrackerBot_5
+[2023.03.14-09.05.03:346][340]LogTemp: Health Changed : 60.0
+[2023.03.14-09.05.03:346][340]LogTemp: Health 60.0 of BP_TrackerBot_5
+[2023.03.14-09.05.03:562][366]LogTemp: Health Changed : 40.0
+[2023.03.14-09.05.03:562][366]LogTemp: Health 40.0 of BP_TrackerBot_5
+[2023.03.14-09.05.03:595][370]LogTemp: Health Changed : 20.0
+[2023.03.14-09.05.03:596][370]LogTemp: Health 20.0 of BP_TrackerBot_5
+[2023.03.14-09.05.03:654][377]LogTemp: Health Changed : 0.0
+[2023.03.14-09.05.03:654][377]LogTemp: Health 0.0 of BP_TrackerBot_5
+[2023.03.14-09.05.27:202][566]LogRenderer: Reallocating scene render targets to support 2184x1068 Format 10 NumSamples 1 (Frame:1).
+[2023.03.14-09.06.08:329][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/Meshes/SM_TrackerBot" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/Meshes/SM_TrackerBot.uasset" SILENT=true
+[2023.03.14-09.06.08:341][888]LogSavePackage: Save=9.85ms
+[2023.03.14-09.06.08:341][888]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/SM_TrackerBotEE3AA4304218B5E8681EF88829B72E18.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/Meshes/SM_TrackerBot.uasset'
+[2023.03.14-09.06.08:343][888]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/Meshes/SM_TrackerBot.uasset
+[2023.03.14-09.06.11:691][284]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.06.11:706][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.06.11:706][284]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:06:11)
+[2023.03.14-09.06.11:706][284]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-09.06.11:709][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002789s)
+[2023.03.14-09.06.11:709][284]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.06.11:710][284]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2023.03.14-09.06.11:710][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.003813s)
+[2023.03.14-09.06.11:751][284]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.06.11:760][284]LogInit: FAudioDevice initialized.
+[2023.03.14-09.06.11:789][284]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.06.11:791][284]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.06.11
+[2023.03.14-09.06.11:792][284]LogWorld: Bringing up level for play took: 0.001741
+[2023.03.14-09.06.11:794][284]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: 1.052
+[2023.03.14-09.06.27:611][178]LogTemp: Health Changed : 80.0
+[2023.03.14-09.06.27:611][178]LogTemp: Health 80.0 of BP_TrackerBot_5
+[2023.03.14-09.06.27:853][207]LogTemp: Health Changed : 60.0
+[2023.03.14-09.06.27:853][207]LogTemp: Health 60.0 of BP_TrackerBot_5
+[2023.03.14-09.06.28:106][237]LogTemp: Health Changed : 40.0
+[2023.03.14-09.06.28:106][237]LogTemp: Health 40.0 of BP_TrackerBot_5
+[2023.03.14-09.06.28:356][267]LogTemp: Health Changed : 20.0
+[2023.03.14-09.06.28:357][267]LogTemp: Health 20.0 of BP_TrackerBot_5
+[2023.03.14-09.06.28:606][297]LogTemp: Health Changed : 0.0
+[2023.03.14-09.06.28:606][297]LogTemp: Health 0.0 of BP_TrackerBot_5
+[2023.03.14-09.08.16:539][834]BlueprintLog: New page: BP_TrackerBot 컴파일
+[2023.03.14-09.08.17:000][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/BP_TrackerBot" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset" SILENT=true
+[2023.03.14-09.08.17:026][834]LogSavePackage: Save=24.05ms
+[2023.03.14-09.08.17:027][834]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/BP_TrackerBot9A1EDDC04905C0467514689F750D33C3.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2023.03.14-09.08.17:028][834]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2023.03.14-09.08.17:731][916]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.08.17:747][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.08.17:748][916]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:08:17)
+[2023.03.14-09.08.17:748][916]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-09.08.17:751][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003015s)
+[2023.03.14-09.08.17:751][916]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.08.17:752][916]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2023.03.14-09.08.17:752][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.004188s)
+[2023.03.14-09.08.17:794][916]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.08.17:802][916]LogInit: FAudioDevice initialized.
+[2023.03.14-09.08.17:851][916]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.08.17:853][916]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.08.17
+[2023.03.14-09.08.17:854][916]LogWorld: Bringing up level for play took: 0.001695
+[2023.03.14-09.08.17:857][916]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: -0.884
+[2023.03.14-09.08.21:670][361]LogTemp: Health Changed : 90.0
+[2023.03.14-09.08.38:262][350]LogTemp: Health Changed : 80.0
+[2023.03.14-09.08.38:262][350]LogTemp: Health 80.0 of BP_TrackerBot_5
+[2023.03.14-09.08.38:354][361]LogTemp: Health Changed : 60.0
+[2023.03.14-09.08.38:354][361]LogTemp: Health 60.0 of BP_TrackerBot_5
+[2023.03.14-09.08.38:854][421]LogTemp: Health Changed : 40.0
+[2023.03.14-09.08.38:854][421]LogTemp: Health 40.0 of BP_TrackerBot_5
+[2023.03.14-09.08.38:954][433]LogTemp: Health Changed : 20.0
+[2023.03.14-09.08.38:955][433]LogTemp: Health 20.0 of BP_TrackerBot_5
+[2023.03.14-09.08.39:055][445]LogTemp: Health Changed : 0.0
+[2023.03.14-09.08.39:055][445]LogTemp: Health 0.0 of BP_TrackerBot_5
+[2023.03.14-09.09.02:803][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue.uasset" SILENT=true
+[2023.03.14-09.09.02:831][274]LogSavePackage: Save=24.91ms
+[2023.03.14-09.09.02:831][274]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/ball_roll_03_loop_Cue81BD55E2410607727D03428C0747DB41.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue.uasset'
+[2023.03.14-09.09.02:832][274]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue.uasset
+[2023.03.14-09.09.25:928][ 26]BlueprintLog: New page: BP_TrackerBot 컴파일
+[2023.03.14-09.09.26:385][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/BP_TrackerBot" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset" SILENT=true
+[2023.03.14-09.09.26:414][ 26]LogSavePackage: Save=26.64ms
+[2023.03.14-09.09.26:414][ 26]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/BP_TrackerBotD8F44B92452F8369629533A422C5C1F5.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2023.03.14-09.09.26:416][ 26]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2023.03.14-09.09.31:595][642]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.09.31:612][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.09.31:612][642]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:09:31)
+[2023.03.14-09.09.31:612][642]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-09.09.31:615][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002804s)
+[2023.03.14-09.09.31:616][642]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.09.31:616][642]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2023.03.14-09.09.31:616][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.003901s)
+[2023.03.14-09.09.31:657][642]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.09.31:666][642]LogInit: FAudioDevice initialized.
+[2023.03.14-09.09.31:713][642]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.09.31:715][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.09.31
+[2023.03.14-09.09.31:716][642]LogWorld: Bringing up level for play took: 0.001713
+[2023.03.14-09.09.31:719][642]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: 0.978
+[2023.03.14-09.09.40:766][715]LogTemp: Health Changed : 80.0
+[2023.03.14-09.09.40:767][715]LogTemp: Health 80.0 of BP_TrackerBot_5
+[2023.03.14-09.09.41:008][744]LogTemp: Health Changed : 60.0
+[2023.03.14-09.09.41:008][744]LogTemp: Health 60.0 of BP_TrackerBot_5
+[2023.03.14-09.09.41:258][774]LogTemp: Health Changed : 40.0
+[2023.03.14-09.09.41:258][774]LogTemp: Health 40.0 of BP_TrackerBot_5
+[2023.03.14-09.09.41:507][804]LogTemp: Health Changed : 20.0
+[2023.03.14-09.09.41:508][804]LogTemp: Health 20.0 of BP_TrackerBot_5
+[2023.03.14-09.09.41:759][834]LogTemp: Health Changed : 0.0
+[2023.03.14-09.09.41:759][834]LogTemp: Health 0.0 of BP_TrackerBot_5
+[2023.03.14-09.09.41:759][834]LogTemp: Health Changed : 60.0
+[2023.03.14-09.09.51:840][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue" FILE="../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue.uasset" SILENT=true
+[2023.03.14-09.09.51:845][ 23]LogSavePackage: Save=2.71ms
+[2023.03.14-09.09.51:845][ 23]LogSavePackage: Moving '../../../../../../UE_Project/CoopGame/Saved/ball_roll_03_loop_Cue04F5D825463307DC1C8B9981791A3D61.tmp' to '../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue.uasset'
+[2023.03.14-09.09.51:847][ 23]LogSavePackage: Display: Finished SavePackage ../../../../../../UE_Project/CoopGame/Content/TrackerBot/TrackerSounds/ball_roll_03_loop_Cue.uasset
+[2023.03.14-09.10.12:522][487]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.10.12:539][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.10.12:539][487]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:10:12)
+[2023.03.14-09.10.12:539][487]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_P_TestMap
+[2023.03.14-09.10.12:542][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002748s)
+[2023.03.14-09.10.12:543][487]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.10.12:543][487]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2023.03.14-09.10.12:543][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap (0.003911s)
+[2023.03.14-09.10.12:586][487]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.10.12:594][487]LogInit: FAudioDevice initialized.
+[2023.03.14-09.10.12:630][487]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.10.12:632][487]LogWorld: Bringing World /Game/Maps/UEDPIE_0_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.10.12
+[2023.03.14-09.10.12:632][487]LogWorld: Bringing up level for play took: 0.001620
+[2023.03.14-09.10.12:634][487]PIE: /Game/Maps/UEDPIE_0_P_TestMap 에 대한 에디터에서 플레이 시작 시간: -0.107
+[2023.03.14-09.10.28:834][429]LogTemp: Health Changed : 80.0
+[2023.03.14-09.10.28:834][429]LogTemp: Health 80.0 of BP_TrackerBot_5
+[2023.03.14-09.10.29:401][497]LogTemp: Health Changed : 60.0
+[2023.03.14-09.10.29:401][497]LogTemp: Health 60.0 of BP_TrackerBot_5
+[2023.03.14-09.10.29:701][533]LogTemp: Health Changed : 40.0
+[2023.03.14-09.10.29:701][533]LogTemp: Health 40.0 of BP_TrackerBot_5
+[2023.03.14-09.10.29:951][563]LogTemp: Health Changed : 20.0
+[2023.03.14-09.10.29:951][563]LogTemp: Health 20.0 of BP_TrackerBot_5
+[2023.03.14-09.10.31:626][764]LogTemp: Health Changed : 0.0
+[2023.03.14-09.10.31:627][764]LogTemp: Health 0.0 of BP_TrackerBot_5
+[2023.03.14-09.12.01:741][378]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.14-09.12.01:754][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-09.12.01:757][378]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:12:01)
+[2023.03.14-09.12.01:758][378]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_P_TestMap
+[2023.03.14-09.12.01:760][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002693s)
+[2023.03.14-09.12.01:761][378]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.12.01:761][378]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2023.03.14-09.12.01:761][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/P_TestMap.P_TestMap to /Game/Maps/UEDPIE_1_P_TestMap.P_TestMap (0.003665s)
+[2023.03.14-09.12.01:804][378]LogInit: XAudio2 using '24MP76(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.03.14-09.12.01:812][378]LogInit: FAudioDevice initialized.
+[2023.03.14-09.12.01:846][378]LogLoad: Game class is 'BP_TestGameMode_C'
+[2023.03.14-09.12.01:848][378]LogWorld: Bringing World /Game/Maps/UEDPIE_1_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.12.01
+[2023.03.14-09.12.01:848][378]LogWorld: Bringing up level for play took: 0.001668
+[2023.03.14-09.12.01:873][378]LogTemp: Display: ParseSettings for GameNetDriver
+[2023.03.14-09.12.01:874][378]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2023.03.14-09.12.01:874][378]LogTemp: Display: ParseSettings for GameNetDriver
+[2023.03.14-09.12.01:887][378]LogInit: WinSock: Socket queue 131072 / 131072
+[2023.03.14-09.12.01:890][378]LogInit: WinSock: I am DESKTOP-A4CSULD (175.197.228.104:0)
+[2023.03.14-09.12.01:891][378]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.03.14-09.12.01:891][378]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2023.03.14-09.12.01:892][378]PIE: /Game/Maps/UEDPIE_1_P_TestMap 에 대한 에디터에서 플레이 시작 시간: -0.849
+[2023.03.14-09.12.01:895][378]PIE: New page: PIE 세션: P_TestMap (2023. 3. 15. 오전 3:12:01)
+[2023.03.14-09.12.01:949][378]LogNet: Browse: 127.0.0.1//Game/Maps/P_TestMap
+[2023.03.14-09.12.01:949][378]LogTemp: Display: ParseSettings for GameNetDriver
+[2023.03.14-09.12.01:949][378]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2023.03.14-09.12.01:949][378]LogTemp: Display: ParseSettings for PendingNetDriver
+[2023.03.14-09.12.01:949][378]LogInit: WinSock: Socket queue 32768 / 32768
+[2023.03.14-09.12.01:950][378]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.03.14-09.12.01:953][378]LogNet: Game client on port 7777, rate 10000
+[2023.03.14-09.12.01:957][378]PIE: /Game/Maps/P_TestMap 에 대한 에디터에서 플레이 시작 시간: -0.784
+[2023.03.14-09.12.01:977][378]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59925
+[2023.03.14-09.12.01:977][378]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 083218124165004063130019053155030129027215202102098255141151
+[2023.03.14-09.12.02:057][378]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 083218124165004063130019053155030129027215202102098255141151
+[2023.03.14-09.12.02:117][379]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59925
+[2023.03.14-09.12.02:117][379]LogHandshake: SendChallengeAck. InCookie: 083218124165004063130019053155030129027215202102098255141151
+[2023.03.14-09.12.02:117][379]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59925
+[2023.03.14-09.12.02:117][379]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.03.14-09.12.02:118][379]LogNet: NotifyAcceptedConnection: Name: P_TestMap, TimeStamp: 03/14/23 18:12:02, [UNetConnection] RemoteAddr: 127.0.0.1:59925, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2023.03.14-09.12.02:118][379]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59925, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2023.03.14-09.12.02:118][379]LogNetVersion: CoopGame 1.0.0.0, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 877928194)
+[2023.03.14-09.12.02:118][379]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2023.03.14-09.12.02:128][380]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_P_TestMap.P_TestMap: Accepted
+[2023.03.14-09.12.02:128][380]LogNet: Remote platform little endian=1
+[2023.03.14-09.12.02:128][380]LogNet: This platform little endian=1
+[2023.03.14-09.12.02:137][381]LogNet: Login request: /Game/Maps/P_TestMap userId: Invalid
+[2023.03.14-09.12.02:138][381]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_P_TestMap, Game: /Game/Blueprints/BP_TestGameMode.BP_TestGameMode_C)
+[2023.03.14-09.12.02:138][381]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_P_TestMap?game=/Game/Blueprints/BP_TestGameMode.BP_TestGameMode_C
+[2023.03.14-09.12.02:181][381]Cmd: MEM
+[2023.03.14-09.12.02:227][381]LogMemory: Platform Memory Stats for Windows
+[2023.03.14-09.12.02:227][381]LogMemory: Process Physical Memory: 1669.97 MB used, 1686.63 MB peak
+[2023.03.14-09.12.02:227][381]LogMemory: Process Virtual Memory: 2961.12 MB used, 3091.09 MB peak
+[2023.03.14-09.12.02:227][381]LogMemory: Physical Memory: 10807.50 MB used,  21908.61 MB free, 32716.11 MB total
+[2023.03.14-09.12.02:227][381]LogMemory: Virtual Memory: 8086.22 MB used,  21908.61 MB free, 134217728.00 MB total
+[2023.03.14-09.12.02:227][381]LogMemory: 
+[2023.03.14-09.12.02:227][381]Allocator Stats for TBB: (not implemented)
+[2023.03.14-09.12.02:233][381]LogAIModule: Creating AISystem for world P_TestMap
+[2023.03.14-09.12.02:234][381]LogTemp: Display: ParseSettings for GameNetDriver
+[2023.03.14-09.12.02:235][381]LogWorld: Bringing World /Game/Maps/UEDPIE_2_P_TestMap.P_TestMap up for play (max tick rate 0) at 2023.03.14-18.12.02
+[2023.03.14-09.12.02:236][381]LogWorld: Bringing up level for play took: 0.001456
+[2023.03.14-09.12.02:236][381]LogLoad: Took 0.098659 seconds to LoadMap(/Game/Maps/UEDPIE_1_P_TestMap)
+[2023.03.14-09.12.02:264][382]LogNet: Client netspeed is 10000
+[2023.03.14-09.12.02:264][382]LogNet: Join request: /Game/Maps/P_TestMap?SplitscreenCount=1
+[2023.03.14-09.12.02:266][382]LogNet: Join succeeded: 267
