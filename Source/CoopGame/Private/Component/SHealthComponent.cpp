@@ -27,6 +27,7 @@ void USHealthComponent::BeginPlay()
 		AActor* MyOwner = GetOwner();
 		if (MyOwner)
 		{
+			// 플레이어가 데미지를 받을 시 HandleTakeAnyDamage 함수 실행.
 			MyOwner->OnTakeAnyDamage.AddDynamic(this, &USHealthComponent::HandleTakeAnyDamage);
 		}
 	}
@@ -79,6 +80,7 @@ void USHealthComponent::Heal(float HealAmount)
 {
 	if (HealAmount < 0.0f || Health <= 0.0f)
 	{ 
+		// 힐을 받을 액터가 이미 사망 시 리턴.
 		return;
 	}
 	

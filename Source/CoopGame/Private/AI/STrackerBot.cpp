@@ -59,14 +59,16 @@ void ASTrackerBot::BeginPlay()
 
 	if (Role == ROLE_Authority)
 	{
-		// Find initial move-to
+		// 최초 이동 포인트를 찾음.
 		NextPathPoint = GetNextPathPoint();
 
+		// 1초마다 확인, 주위에 다른 봇들이 더 있으면 대미지가 증가함.
 		FTimerHandle TimerHandle_CheckPowerLevel;
 		GetWorldTimerManager().SetTimer(TimerHandle_CheckPowerLevel, this, &ASTrackerBot::OnCheckNearByBots, 1.0f, true);
 	}
 }
 
+// 대미지를 받을 시 머티리얼이 잠깐 반짝이는 효과.
 void ASTrackerBot::HandleTakeDamage(USHealthComponent * OwnigHealthComp, float Health, float HealthDelta, const UDamageType * DamageType, AController * InstigatedBy, AActor * DamageCauser)
 {
 	// Explode on hitpoint == 0
@@ -91,7 +93,7 @@ void ASTrackerBot::HandleTakeDamage(USHealthComponent * OwnigHealthComp, float H
 FVector ASTrackerBot::GetNextPathPoint()
 {
 	AActor* BestTarget = nullptr;
-	float NearestTargetDistance = FLT_MAX;
+	float NearestTargetDistance = FLT_MAX; // float의 양수 최댓값.
 
 	for (FConstPawnIterator It = GetWorld()->GetPawnIterator(); It; ++It)
 	{
@@ -102,10 +104,12 @@ FVector ASTrackerBot::GetNextPathPoint()
 		}
 
 		USHealthComponent* TestPawnHealthComp = Cast<USHealthComponent>(TestPawn->GetComponentByClass(USHealthComponent::StaticClass()));
-		if (TestPawnHealthComp && TestPawnHealthComp->GetHealth() > 0.0f)
+		if (TestPawnHealthComp && TestPawnHealthComp->GetHealth() > 0.0f) // TestPawnHealthComp가 유효하고 HP가 0 이상인 경우.
 		{	
+			// 거리를 구함.
 			float Distance = (TestPawn->GetActorLocation() - GetActorLocation()).Size();
-
+			
+			// 거리가 기존 가까운 타겟의 거리보다 적으면 BestTarget 변경.
 			if (Distance < NearestTargetDistance)
 			{
 				BestTarget = TestPawn;
@@ -118,6 +122,7 @@ FVector ASTrackerBot::GetNextPathPoint()
 	{
 		UNavigationPath* NavPath = UNavigationSystem::FindPathToActorSynchronously(this, GetActorLocation(), BestTarget);
 
+		// 기존 타이머 삭제 후 재시작.
 		GetWorldTimerManager().ClearTimer(TimerHandle_RefreshPath);
 		GetWorldTimerManager().SetTimer(TimerHandle_RefreshPath, this, &ASTrackerBot::RefreshPath, 5.0f, false);
 
@@ -130,9 +135,9 @@ FVector ASTrackerBot::GetNextPathPoint()
 
 	// Failed to find path
 	return GetActorLocation();
-	
 }
 
+// 자폭 공격.
 void ASTrackerBot::SelfDestruct()
 {
 	if (bExploded)
@@ -212,6 +217,7 @@ void ASTrackerBot::OnCheckNearByBots()
 	}
 	if (MatInst)
 	{
+		// 주위에 다른 봇이 있을 경우 머티리얼 인스턴스의 PowerLevelAlpha 값 증가.
 		float Alpha = PowerLevel / (float)MaxPowerLevel;
 
 		MatInst->SetScalarParameterValue("PowerLevelAlpha", Alpha);
@@ -271,11 +277,11 @@ void ASTrackerBot::NotifyActorBeginOverlap(AActor * OtherActor)
 		ASCharacter* PlayerPawn = Cast<ASCharacter>(OtherActor);
 		if (PlayerPawn && !USHealthComponent::IsFriendly(OtherActor, this))
 		{
-			// We overlapped with a player!
+			// 플레이어와 오버랩 된 상태.
 
 			if(Role == ROLE_Authority)
 			{
-				// Start self destruction sequence		
+				// 자폭 시퀀스 시작.
 				GetWorldTimerManager().SetTimer(TimerHandle_SelfDamage, this, &ASTrackerBot::DamageSelf, SelfDamageInterval, true, 0.0f);
 			}		
 

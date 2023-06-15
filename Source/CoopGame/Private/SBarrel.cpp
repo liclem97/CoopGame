@@ -44,6 +44,7 @@ void ASBarrel::OnHealthChanged(USHealthComponent* OwningHealthComp, float Health
 			bExploded = true;
 			OnReq_Exploded();
 
+			// 폭발 충격 계수.
 			FVector BoostIntensity = FVector::UpVector * ExplosionImpulse;
 			MeshComp->AddImpulse(BoostIntensity, NAME_None, true);
 
@@ -56,6 +57,7 @@ void ASBarrel::OnHealthChanged(USHealthComponent* OwningHealthComp, float Health
 
 void ASBarrel::OnReq_Exploded()
 {
+	// 이펙트, 머티리얼 다른 클라이언트에 복사.
 	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionEffect, GetActorLocation());
 	MeshComp->SetMaterial(0, ExplodedMaterial);
 }

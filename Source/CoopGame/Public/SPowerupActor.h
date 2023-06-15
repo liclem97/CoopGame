@@ -41,7 +41,7 @@ protected:
 	void OnRep_PowerupActive();
 
 	UFUNCTION(BlueprintImplementableEvent, Category="Powerups")
-	void OnPowerupStateChanged(bool bNewIsAcvie);
+	void OnPowerupStateChanged(bool bNewIsActive);
 
 public:	
 	

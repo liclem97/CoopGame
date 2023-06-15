@@ -127,13 +127,12 @@ void ASCharacter::OnHealthChanged(USHealthComponent* OwnigHealthComp, float Heal
 {
 	if (Health <= 0.0f && !bDied)
 	{
-		// Die
+		// 사망 시 실행.
 		bDied = true;
 
 		GetMovementComponent()->StopMovementImmediately();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 		GetMesh()->SetSimulatePhysics(true);
-
 
 		DetachFromControllerPendingDestroy();
 
@@ -177,7 +176,8 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 FVector ASCharacter::GetPawnViewLocation() const
 {
 	if (CameraComp)
-	{
+	{	
+		// 카메라 컴포넌트가 있을 시 카메라 컴포넌트 위치를 시점 위치로 변경.
 		return CameraComp->GetComponentLocation();
 	}
 

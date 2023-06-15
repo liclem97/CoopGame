@@ -17,6 +17,7 @@ ASGameMode::ASGameMode()
 	PrimaryActorTick.TickInterval = 1.0f;
 }
 
+// 웨이브 시작.
 void ASGameMode::StartWave()
 {
 	WaveCount++;
@@ -28,6 +29,7 @@ void ASGameMode::StartWave()
 	SetWaveState(EWaveState::WaitingInProgress);
 }
 
+// 웨이브 종료.
 void ASGameMode::EndWave()
 {
 	GetWorldTimerManager().ClearTimer(TimerHandle_BotSpawner);
@@ -35,19 +37,23 @@ void ASGameMode::EndWave()
 	SetWaveState(EWaveState::WaitingToComplete);
 	}
 
+// 다음 웨이브를 위한 준비.
 void ASGameMode::PrepareForNextWave()
 {
 	GetWorldTimerManager().SetTimer(TimerHandle_NextWaveStart, this, &ASGameMode::StartWave, TimeBetweenWaves, false);
 
 	SetWaveState(EWaveState::WaitingToStart);
 
+	// 죽은 플레이어 부활.
 	RestartDeadPlayers();
 }
 
+// 웨이브 상태 확인.
 void ASGameMode::CheckWaveState()
 {
 	bool bIsPreparingForWave = GetWorldTimerManager().IsTimerActive(TimerHandle_NextWaveStart);
 
+	// 봇이 남아있거나 다음 웨이브 준비중이면 리턴.
 	if (NrOfBotsToSpawn > 0 || bIsPreparingForWave)
 	{
 		return;
@@ -78,6 +84,7 @@ void ASGameMode::CheckWaveState()
 	}
 }
 
+// 플레이어가 살아있는지 확인.
 void ASGameMode::CheckAnyPlayerAlive()
 {
 	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
@@ -108,6 +115,7 @@ void ASGameMode::GameOver()
 	SetWaveState(EWaveState::GameOver);
 }
 
+// 웨이브 상태 설정.
 void ASGameMode::SetWaveState(EWaveState NewState)
 {
 	ASGameState* GS = GetGameState<ASGameState>();

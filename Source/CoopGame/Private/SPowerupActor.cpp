@@ -21,7 +21,8 @@ void ASPowerupActor::OnTickPowerup()
 	OnPowerupTicked();
 
 	if (TickProcessed >= TotalNrOfTicks)
-	{
+	{	
+		// Destroy.
 		OnExpired();
 
 		bIsPowerupActive = false;
